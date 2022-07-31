@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family:Damion, serif;
+    padding:0;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.94;
+      }
+    
+.pic{
+  margin: 0;
+  padding: 0px;
+ 
+
+}
+  
+      .topnav {
+        overflow: hidden;
+        background-color: #9966ff;
+        cursor: pointer;
+        box-shadow: -1px 5px 5px -2px #333333; 
+        justify-content: center;
+        
+        
+      }
+
+      .active {
+        background-color: white;
+      }
+
+      a:hover:not(.active) {
+        background-color: #111;
+      }
+
+ .topnav ul{
+   display: inline-block;
+ }
+
+
+
+  
+  .topnav a {
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background-color:#cc66cc;
+    color: white;
+    text-shadow: 0px 1px 2px rgba(33, 36, 120, 0.8), 0px 2px 4px rgb(224, 26, 56), 0px 4px 8px rgb(255, 255, 255),-5px 12px 6px rgb(115, 115, 115);
+    text-align: center;
+    padding: 25px 34.8px;
+    width: 19.7%;
+    text-decoration: none;
+    border-right:1px solid rgb(196, 174, 174);
+    font-size: 20px;
+  
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  
+  
+  
+  
+  #bottom-bar	{
+          width: 100%;
+          position:fixed;
+          background:#000000;
+          padding: 20px 0;
+          color: #fff;
+      bottom: 0;
+      }
+  
+  
+
+  
+  #back{
+      background-color:#293d3d;
+      background-position: center;
+      box-shadow: 5px 5px 10px #ffccff;
+      
+  
+      }
+  
+  
+  
+  
+  .button:hover{
+      background-color: #660000;
+      }
+  
+  
+  
+  #seconddesign{
+      background-color:#000000;
+      background:cover;
+      height:50%;
+      padding:100px 10px;
+      opacity:0.9;
+      padding:30px;
+  
+      }
+  
+  #RMS{
+      text-align:center;
+      color:rgb(255, 255, 255);
+      text-shadow: 0px 1px 2px rgba(93, 36, 120, 0.8), 0px 2px 4px rgb(224, 26, 56), 0px 4px 8px rgb(255, 255, 255),-5px 12px 6px rgb(115, 115, 115);
+      font-weight: bold;
+      position: relative;
+      top: -430px;;
+      font-size: 30px;
+      font-style: oblique;
+      background-image:url("images/66.jpg");
+      }
+  #ovmtext{
+      text-align:center;
+      text-transform: uppercase;
+      color: #4CAF50;
+      text-shadow: 0px 1px 2px rgba(33, 36, 120, 0.8), 0px 2px 4px rgb(224, 26, 56), 0px 4px 8px rgb(255, 255, 255),-5px 12px 6px rgb(115, 115, 115);
+      font-weight: bold;
+      font-size: 50px;
+      font-style: oblique;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 3px;
+  
+  
+  }
+  
+  .Companyname{
+      width: 500px;
+      height: 50px;
+      text-shadow: 0px 1px 2px rgba(33, 36, 120, 0.8), 0px 2px 4px rgb(224, 26, 56), 0px 4px 8px rgb(63, 127, 155),-5px 12px 6px rgb(63, 127, 155);
+      text-transform: capitalize;
+      font-family:Damion, serif;
+      line-height: 2.6;
+      letter-spacing: 2px;
+      font-size: 30px;
+      position:relative;
+      top:-5px;
+      }
+  
+  h2		{
+      display: inline-block;
+      padding: 14px 16px;
+      }
+ 
+      .button1 {
+              border-radius: 4px;
+              background-color: black;
+              border: none;
+              box-shadow: 5px 5px 5px grey;
+              color:white;
+              border:2px solid white; 
+              padding: 10px 30px;
+              text-decoration: none;
+              font-size: 16px;
+              margin:100px 30px 0 10px;
+              cursor: pointer;
+              float:left;
+              position:absolute;
+              font-family:Damion, serif;
+              margin-top:0px;
+              left:590px;
+              }
+

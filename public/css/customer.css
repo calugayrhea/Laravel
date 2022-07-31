@@ -1,0 +1,76 @@
+
+
+h2{
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size:30px;
+  position: absolute;
+  top: 30px;
+  left:130px;
+}
+
+
+
+
+
+table{
+border:2px solid #37512C; 
+color:white;
+ position: relative;
+ top:190px;
+ color:black;
+ text-align:center;
+ border-bottom:1px solid #033;
+ border-radius: 10px;
+  
+}
+
+th{
+
+border:2px solid #37512C; 
+ background-color: #E2E2E2;
+ color:black;
+ height:50px;
+ width:10%;
+ text-align: center;
+ font-size: 15px;
+ text-align:center; 
+	
+}
+
+tr, td{
+border:2px solid #37512C; 
+text-align: center;  
+font-size: 19px;
+background-color:#E2E2E2;
+
+   
+}
+
+
+.tab2{
+ border:2px solid #37512C; 
+ color:white;
+ position: relative;
+ top:1px;
+ color:black;
+ text-align:center;
+ left:120px;
+ border-bottom:1px solid #033;
+ box-shadow: 3px 5px 5px 5px #cc66cc;
+ animation-duration: 3s;
+ animation-name: slidein;
+ animation-iteration-count: 1;
+ animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    
+  }
+
+  to {
+    margin-left:0%;
+    
+  }
+}
